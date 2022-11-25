@@ -10,13 +10,8 @@
 
     <Grid Background="White">
 
-		<TextBlock HorizontalAlignment="Center" Margin="247,252,0,0" TextWrapping="Wrap" Text="Selamat Datang" VerticalAlignment="Top" Width="140" FontSize="12" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Center" Margin="247,252,0,0" TextWrapping="Wrap" Text="Di" VerticalAlignment="Top" Width="140" FontSize="12" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Center" Margin="247,252,0,0" TextWrapping="Wrap" Text="Clean Shoes" VerticalAlignment="Top" Width="140" FontSize="12" FontWeight="Bold"/>
-		<TextBlock HorizontalAlignment="Center" Margin="247,252,0,0" TextWrapping="Wrap" Text="Ahlinya Mencuci Sepatu" VerticalAlignment="Top" Width="140" FontSize="12" FontWeight="Bold"/>
-		
-		<TextBox x:Name="TBNama" HorizontalAlignment="Center" Height="24" Margin="0,273,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="300" />
-        <TextBox x:Name="TBSepatu" HorizontalAlignment="Center" Height="24" Margin="0,327,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="300"/>
+		<TextBox x:Name="TBNama" HorizontalAlignment="Center" Height="24" Margin="0,273,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="300" />
+        <TextBox x:Name="TBSepatu" HorizontalAlignment="Center" Height="24" Margin="0,327,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="300"/>
         <Button Content="Submit" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Click="Button_Click" Width="100"/>
         <Image Margin="244,10,244,190" Source="/Properties/logo.jpg"/>
         <TextBlock HorizontalAlignment="Left" Margin="247,252,0,0" TextWrapping="Wrap" Text="Nama :" VerticalAlignment="Top" Width="140" FontSize="12" FontWeight="Bold"/>
